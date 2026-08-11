@@ -1,0 +1,7 @@
+openai
+httpx
+duckduckgo-search
+readability-lxml
+beautifulsoup4
+pdfminer.six
+lxml
