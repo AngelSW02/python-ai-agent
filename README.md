@@ -1,6 +1,7 @@
 <p align="center">
   <img src="ai-agent-banner.png" alt="Python AI Agent Banner" width="100%">
 </p>
+
 # Python AI Agent
 
 A Python-based AI assistant with persistent memory, web tools, file operations, safe calculations, and OpenAI integration.
@@ -34,6 +35,7 @@ A Python-based AI assistant with persistent memory, web tools, file operations, 
 - Readability
 - DuckDuckGo Search
 - PDFMiner
+- Gradio
 
 ## How It Works
 
@@ -42,23 +44,57 @@ The agent evaluates the user's request and decides whether to use memory, web to
 ## Setup
 
 1. Clone the repository.
-2. Install the required dependencies.
-3. Create an environment variable named:
+
+2. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Set your OpenAI API key as an environment variable:
 
 ```bash
 OPENAI_API_KEY
 ```
 
-4. Run the application:
+4. Run the command-line AI agent:
 
 ```bash
 python ai_agent.py
 ```
 
-## Notes
+### Voice Interface
 
-API keys and local memory files are excluded from the repository using `.gitignore`.
+To launch the web-based voice interface:
+
+```bash
+python voice_chat.py
+```
+
+The interface supports microphone input, speech-to-text, text responses, and optional text-to-speech playback.
+
+## Security
+
+- API keys are loaded through environment variables and are not stored in the source code.
+- Local memory and workspace files are excluded through `.gitignore`.
+- Web requests include basic rate limiting and robots.txt awareness.
+- File operations are restricted to the application's local workspace.
+
+## Project Structure
+
+```text
+python-ai-agent/
+├── ai_agent.py
+├── voice_chat.py
+├── requirements.txt
+├── .gitignore
+├── ai-agent-banner.png
+└── README.md
+```
 
 ## Author
 
-Angel Abrigo
+**Angel Abrigo**
+
+Information Science Student — University of Maryland  
+A.S. in Computer Science — Montgomery College
