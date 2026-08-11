@@ -10,7 +10,7 @@ from openai import OpenAI
 import gradio as gr
 
 # Importa tu agente (mismo folder)
-import chatgpt_like_agent as brain
+import ai_agent as brain
 
 # ======= Config por defecto =======
 DEFAULT_STT_MODEL = "whisper-1"              # o "gpt-4o-mini-transcribe" si tu cuenta lo tiene
