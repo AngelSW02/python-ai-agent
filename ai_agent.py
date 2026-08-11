@@ -314,7 +314,8 @@ OPENAI_SYSTEM_PROMPT = (
 def call_llm_openai(history: List[Dict[str,str]], user: str, model="gpt-4o-mini") -> str:
     if OpenAI is None: return "[OpenAI SDK not installed. Run: pip install openai]"
     api_key=os.getenv("OPENAI_API_KEY")
-    if not api_key: return "[Set OPENAI_API_KEY first]"
+    if not api_key:
+    return "[OpenAI API key not configured. Local tools are still available.]"
     client=OpenAI(api_key=api_key)
 
     msgs=[{"role":"system","content":OPENAI_SYSTEM_PROMPT}]
