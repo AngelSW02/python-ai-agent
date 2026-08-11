@@ -23,6 +23,7 @@ A Python-based AI assistant with persistent memory, web tools, file operations, 
 - Safe mathematical expression evaluation
 - URL content extraction
 - Rate limiting and robots.txt awareness
+- Voice interface with microphone input and spoken responses
 
 ## Technologies
 
