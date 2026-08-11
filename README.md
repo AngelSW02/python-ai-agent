@@ -5,6 +5,14 @@
 
 A Python-based AI assistant with persistent memory, web tools, file operations, safe calculations, and OpenAI integration.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/OpenAI-API-black?logo=openai&logoColor=white" alt="OpenAI API">
+  <img src="https://img.shields.io/badge/HTTPX-Web%20Requests-blue" alt="HTTPX">
+  <img src="https://img.shields.io/badge/BeautifulSoup-HTML%20Parsing-green" alt="BeautifulSoup">
+  <img src="https://img.shields.io/badge/Status-Portfolio%20Project-success" alt="Status">
+</p>
+
 ## Features
 
 - Persistent conversation memory
