@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="ai-agent-banner.png" alt="Python AI Agent Banner" width="100%">
+</p>
 # Python AI Agent
 
 A Python-based AI assistant with persistent memory, web tools, file operations, safe calculations, and OpenAI integration.
